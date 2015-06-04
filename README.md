@@ -1,11 +1,15 @@
 # jqueryFileUpload
 jquery Fileupload with Drag
 
-jquery fileupload 응용해서 만든건데 손본건 조금빡에 없습니다. 
-간단하게 쓰시면 될듯 하네요.
-jsp는 jstl을 썻는데 뭐 안쓰셔도 상관없습니다. 다른걸로 하셔도 되구요. 
+만들려고 보니 이곳저곳에서 끌어다 쓴흔적이 있네요. 기본적으로 jquery fileupload를 썻구요.
+UI를 만들려고 CSS 및 JS안에 소스를 좀 수정했습니다. 
+가지고 가셔서 약간씩 수정하시면 될듯 하구요. 
 
-추가로 Header 쪽에 font-awesome 을 링크해주세요. 아이폰들이 전부 여기꺼 입니다. 
-방식은 너무 간단합니다. 
+support browser : ie8~, chrome, safari 
+드레그의 경우 ie10부터 가능합니다. 
 
-여기 파일들 넣고 spring에서 자바파일만 세팅후에 돌려 보시면 보일겁니다. 
+jsp파일 상단에 awesome url을 넣어주셔야 합니다. 
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="fileupload.css" />
+<script type="text/javascript" src="jquery.uploadfile.js"></script>
