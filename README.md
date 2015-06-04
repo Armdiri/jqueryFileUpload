@@ -15,3 +15,6 @@ jsp파일 상단에 awesome url을 넣어주셔야 합니다.
 <link rel="stylesheet" type="text/css" href="fileupload.css" />
 <script type="text/javascript" src="jquery.uploadfile.js"></script>
 ```
+
+샘플화면
+<img src='capture.png'>
