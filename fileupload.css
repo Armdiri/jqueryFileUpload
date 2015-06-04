@@ -1,0 +1,49 @@
+/* fileupload css */
+.ui-icon { 
+	background-image:url("/admin/resources/img/ui-icons.png"); background-position:-32px -128px; width:16px; height:16px;
+	position:absolute; top:50%; margin-top:-8px; display:block; text-indent:-99999px; over-flow:hidden; background-repeate:no-repeat;
+}
+.ui-text { padding:0 1em .4em 2.1em; display:block; line-height:normal; font-size:0.95em; color:#333333; }
+
+.ajax-file-upload-statusbar {
+	clear : both;
+	margin-top: 5px;  
+	-moz-border-radius: 4px; -webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.ajax-file-upload-filename { height: auto; margin: 5px 5px 5px 10px; color: #807579; float:left;}
+.ajax-file-upload-progress { margin: 0 5px 5px 10px; position: relative; width: 100px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; display: inline-block; float:right; }
+.ajax-file-upload-bar {	background-color: #0ba1b5; width: 0; height: 16px; border-radius: 3px; color:#FFFFFF; }
+.ajax-file-upload-percent { position: absolute; display: inline-block; top: 3px; left: 48%; }
+.ajax-file-upload {
+	/* font-family: Arial, Helvetica, sans-serif; */
+	font-size: 0.95em;
+	padding: 10px 10px;
+	cursor:pointer;
+	line-height:18px;
+	height:18px;
+	margin:0px 10px 6px 0;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	text-decoration: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 0 2px 0 0 #e8e8e8;
+	-webkit-box-shadow: 0 2px 0 0 #e8e8e8;
+	box-shadow: 0 2px 0 0 #e8e8e8; 
+	padding: 6px 10px 4px 10px; 
+	background: #adadad;
+	border: none;
+	box-shadow: 0 2px 0 0 #54585A; 
+	vertical-align:middle;  
+}
+.ajax-file-upload:hover { cursor:pointer; background: #EAE9E9; -moz-box-shadow: 0 2px 0 0 #54585A; -webkit-box-shadow: 0 2px 0 0 #54585A; box-shadow: 0 2px 0 0 #54585A; }
+.ajax-upload-dragdrop { border:1px dotted #DADCE3; color: #A5A5C7; text-align:left; vertical-align:middle; padding:3px 3px 0px 3px; background-color: beige; }
+.ajax-upload-dragdrop.state-hover { border: 1px solid #A5A5C7; }
+.ajax-file-upload-error { color: red; }
+
+.fa {
+	cursor : pointer;
+	margin-top : 3px;
+}
