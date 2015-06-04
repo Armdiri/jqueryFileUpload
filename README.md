@@ -10,6 +10,8 @@ support browser : ie8~, chrome, safari
 
 jsp파일 상단에 awesome url을 넣어주셔야 합니다. 
 
-"<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">"
-"<link rel="stylesheet" type="text/css" href="fileupload.css" />"
-"<script type="text/javascript" src="jquery.uploadfile.js"></script>"
+```html
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="fileupload.css" />
+<script type="text/javascript" src="jquery.uploadfile.js"></script>
+```
